@@ -14,10 +14,5 @@ public class AplicacaoIV {
         cpoupanca.deposito(cdt5);
 
         corrente2.transferir(cpoupanca, 500.);
-
-        System.out.println("Número da Conta Corrente: " + corrente2.getNumero() + " / Saldo: " + corrente2.calcSaldo(corrente2));
-        System.out.println("Número da Conta Poupança: " + cpoupanca.getNumero() + " / Saldo: " + cpoupanca.calcSaldo(cpoupanca));
-        System.out.println("Valor de transferência: " + corrente2.getSaldo());
-        System.out.println("Saldo do Destinatário: " + cpoupanca.getSaldo());
     }
 }
